@@ -8,7 +8,7 @@ fi
 
 # check if website argument is passed
 if [ -z "$1" ]
-  then echo "No argument supplied: ./add-site example.com (without the www.!)"
+  then echo "No argument supplied: ./add-website example.com (without the www.!)"
   exit 1
 fi
 
