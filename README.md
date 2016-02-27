@@ -1,7 +1,8 @@
 # le-nginx-site-adder
 Script to automatically create a new website with Nginx + Let's encrypt SSL certs. 
 
-You will need to have Nginx pre-installed + let's encrypt.
+You will need to have Nginx pre-installed + let's encrypt. Make sure the binaries of letsencrypt is in: "/opt/letsencrypt/" or change it in the script to your need.
+
 Webroot directory is set to: /var/www/example.com/html
 
 Download the auto-renew script from spiderneo, and the automatically generated certs with my script will auto-renew!
